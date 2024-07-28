@@ -1,0 +1,138 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #324253;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-btn {
+    background-color: #46596e;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('homepagebackground.png') no-repeat center center/cover;
+    color: #324253;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    height: 60vh;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow:
+            -1px -1px 0 #ffffff,
+            1px -1px 0 #ffffff,
+            -1px 1px 0 #ffffff,
+            1px 1px 0 #ffffff;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-shadow:
+            -1px -1px 0 #ffffff,
+            1px -1px 0 #ffffff,
+            -1px 1px 0 #ffffff,
+            1px 1px 0 #ffffff;
+}
+
+.cta-btn {
+    background-color: #324253;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.benefit-item {
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.benefit-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.benefit-item h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.benefit-item p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-info, .social-media, .quick-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
