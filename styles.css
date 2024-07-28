@@ -39,7 +39,7 @@ nav a {
 }
 
 .hero {
-    background: url('banner.jpg') no-repeat center center/cover;
+    background: url('homepagebackground.png') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 100px 20px;
